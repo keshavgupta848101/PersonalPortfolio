@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#img-fluid{
+width: 340px;
+height: 320px;
+border-radius: 50%; 
+margin-top: 120px;
+}
+
+#photo{
+  background-color: #1ABC9C;
+  position: relative;
+  height: 97vh;
+  width: 100vw;
+}
+.div1{
+  /* background-color: #1ABC9C; */
+
+  position: absolute;
+  left: 39%;
+}
+.div1 h1{
+  text-align: center;
+  color: white;
+}
+img{
+  border-radius: 50%;
+ 
+}
+
+#star{
+  font-size: 5rem;
+}
+figcaption{
+  margin-top: 10px;
+}
+
+#cardz
+{
+  display: flex;
+  
+}
+
+svg{
+  color: white;
+  width:40px; 
+  height:40px;
+
+}
+
+#svg{
+  margin-top: 2px;
+  margin-left: 32%;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  #img-fluid{
+    width: 300px;
+    height: 310px;
+    border-radius: 50%; 
+    margin-top: 110px;    }
+    
+    #photo{
+      background-color: #1ABC9C;
+      position: relative;
+      height: 90vh;
+      width: 100vw;
+
+    }
+    .div1{
+      background-color: #1ABC9C;
+    
+      position: absolute;
+      left: 7.5%;
+    }
+    .div1 h1{
+ font-size: xx-large;
+      color: white;
+    }
+    img{
+      border-radius: 50%;
+    
+
+    }
+    #star{
+      font-size: 2rem;
+    }
+    figcaption{
+      margin-top: 10px;
+    }
+}
+
+/* Crdzzz style */
+
+body {
+  font-family: 'Lato', sans-serif;
+ }
+ .wrapper {
+ padding-top: 120px;
+ }
+ .card-img-top {
+ box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+ }
+ .card-body{
+     text-align: center;
+     box-shadow: 0px 15px 15px -8px rgba(0,0,0,0.5)
+ }
+ .card-body h6 {
+ font-size: 14px;
+ text-transform: uppercase;
+ color: deeppink;
+ }
+ .card-title {
+ text-transform: uppercase;
+ font-weight: bold;
+ font-size: 24px;
+ }
+ 
+ .socials a {
+ width: 40px;
+ height: 40px;
+ display: inline-block;
+ border-radius: 50%;
+ margin: 0 5px;
+ }
+ .socials a i {
+ color: #fff;
+ padding: 12px 0;
+ }    
+ 
+ .socials a:nth-child(1) {
+ background: black;
+ }.socials a:nth-child(2) {
+ background: black;
+ }.socials a:nth-child(3) {
+ background: #007bb5;
+ }.socials a:nth-child(4) {
+ background: #ea4c89;
+ }
+ 
+ @media (max-width: 800px){
+     .mx-30{
+         margin-bottom: 30px;
+     }
+ }
+ 
